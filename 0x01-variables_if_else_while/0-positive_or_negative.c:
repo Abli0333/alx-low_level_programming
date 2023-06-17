@@ -1,0 +1,17 @@
+ 
+sitive_or_negative.c:14:6: error: implicit declaration of function ‘printf’ [-Werror=implicit-function-declaration]
+   14 |      printf ("is postive");
+      |      ^~~~~~
+0-positive_or_negative.c:14:6: error: incompatible implicit declaration of built-in function ‘printf’ [-Werror]
+0-positive_or_negative.c:3:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+    2 | #include <time.h>
+  +++ |+#include <stdio.h>
+    3 | /* more headers goes there */
+0-positive_or_negative.c:16:8: error: expected ‘(’ before ‘else’
+   16 |     if else (n=0)
+      |        ^~~~
+      |        (
+0-positive_or_negative.c:26:1: error: control reaches end of non-void function [-Werror=return-type]
+   26 | }
+      | ^
+cc1: all warnings being treated as errors
