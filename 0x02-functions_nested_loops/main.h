@@ -1,11 +1,11 @@
 #ifndef main_h
 	#define main_h
+
 /**
- * main - different fanctions
- * 
- * Description: This program contain all the -
- * user defined functions of the program
- * 
+ * main - Entry point
+ *
+ * Description: Prints "_putchar" followed by a new line
+ *
  * Return: Always 0 (Success)
  */
 
