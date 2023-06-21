@@ -1,6 +1,13 @@
 #ifndef main_h
 	#define main_h
-
+/**
+ * main - different fanctions
+ * 
+ * Description: This program contain all the -
+ * user defined functions of the program
+ * 
+ * Return: Always 0 (Success)
+ */
 
 	int _putchar(char);
 	void print_alphabet(void);
